@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Lab 1</title>
+
+        <style>
+            header {
+                background-color: green;
+                text-align: center;
+                font-size: 24px;
+            }
+            footer {
+                background-color: green;
+                text-align: center;
+                font-size: 24px;
+            }
+            content {
+                background-color: blue;
+                width: 500px;
+                padding-left: 20px;
+                padding-right: 20px;
+                color: white;
+            }
+            .main {
+                display: flex;
+                justify-content: center;
+            }
+            .square {
+                float: left;
+                height: 100px;
+                width: 100px;
+                border: 5px solid white;
+                border-start-start-radius: 20% 20%;
+                border-end-end-radius: 20% 20%;
+                margin: 10px;
+            }
+            .reference {
+                text-align: center;
+            }
+            td {
+                width: 40px;
+                height: 40px;
+                border: solid 1px silver;
+                text-align: center;
+            }        </style>
+    </head>
+    <body>
+        <header style="color: white;">
+            Hello, Header!
+        </header>
+        <div class="main">
+            <content>
+                <h1 style="color: white">
+                    Hello, content!
+                </h1>
+                <div>
+                    <div class="square"></div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </div>
+                <div class="reference">
+                    <a style="color: red;" href="http://www.csd.tsu.com">www.csd.tsu.com</a>
+                </div>
+                <div>
+                    <p style="font-size: 20px; word-spacing: 5px; margin-bottom: 0px;"><b><span style="color:red;">Here</span> is the list:</b></p>
+                    <ul style="list-style-type: disc; margin: 0px;">
+                        <li>Value 1</li>
+                        <li style="color: aqua;">V&nbsp;a&nbsp;l&nbsp;u&nbsp;e&nbsp;&nbsp;2</li>
+                        <li>Value 3</li>
+                    </ul>
+                </div>
+                <div style="float:right;">
+                    <table style="border: solid 1px silver;">
+                        <tr>
+                            <td rowspan="2" style="background-color:green;">1</td>
+                            <td>2</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td colspan="2" style="background-color:red;">7</td>
+                        </tr>
+                    </table>
+                    
+                    <img style="float:right; margin-top: 10px;" src="images.png" alt="Çèìíÿÿ ðàâíèíà" />
+                </div>
+                <p style="font-size: 20px;"><b>Here are some visual styles:</b></p>
+                <p><i>Italic</i></p>
+                <p><b>Bold</b></p>
+                <p><u>UnderLined</u></p>
+                <p><del>Line through</del></p>
+            </content>
+        </div>
+        <footer style="color: white;">
+                Hello, Footer!
+        </footer>
+    </body>
+</html>
